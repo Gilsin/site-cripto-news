@@ -1,7 +1,17 @@
+import React from 'react';
+import "./layout"
+import Cabeca from './components/header'
+import Footer from './components/Footer'
+import Main from './components/Main'
 export default function Home() {
   return (
-    <div>
-      <h1>Cripto News Research</h1>
+    <div> 
+   <Cabeca />
+   <Main /> 
+   <Main />
+   <Main />
+   <Footer />   
+   
     </div>
   )
 }
